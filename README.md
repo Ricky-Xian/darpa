@@ -22,15 +22,7 @@ This repository provides code for performing action recognition on video data us
 ---
 
 ## Repository Structure
-.
-├── models.py                   # Contains the ViT-Small model architecture.
-├── inference.py                # Main inference script.
-├── requirements.txt            # Pip dependencies.
-├── environment.yml             # (Optional) Conda environment configuration.
-├── kinetics_400_labels.csv     # CSV file mapping label IDs to action names.
-└── README.md                   # This file.
 
----
 
 ## Installation
 
