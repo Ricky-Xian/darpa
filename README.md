@@ -43,4 +43,11 @@ You can install the required dependencies using either pip or Conda.
    git clone https://github.com/Ricky-Xian/darpa.git
    cd darpa
 
-2.	Install the dependencies:
+2. **Create New Environment:**
+   ```bash
+   conda env create -f environment.yml
+   conda activate videomae_env
+
+3.	**Install the dependencies:**
+   ```bash
+   pip install -r requirements.txt
