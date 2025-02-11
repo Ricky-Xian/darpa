@@ -36,6 +36,11 @@ This repository provides code for performing action recognition on video data us
 
 You can install the required dependencies using either pip or Conda.
 
+### Prerequisites
+
+- **Git:** Ensure Git is installed ([Download Git](https://git-scm.com/)).
+- **Conda:** Install Anaconda or Miniconda to create and manage your environment.
+
 ### Using pip
 
 1. **Clone the repository:**
@@ -51,3 +56,9 @@ You can install the required dependencies using either pip or Conda.
 3.	**Install the dependencies:**
    ```bash
    pip install -r requirements.txt
+
+4. **Run Inference:(make sure you change the variables in the shell script)**
+   ```bash
+   bash run_inference.sh
+
+
